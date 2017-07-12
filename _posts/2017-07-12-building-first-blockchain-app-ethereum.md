@@ -3,7 +3,7 @@ layout: post
 title:  "Bulding your first blockchain app with Ethereum"
 date:   2017-07-12 21:14:42
 tags: [ethereum, dapp, blockchain, javascript]
-categories: [javascript]
+categories: [javascript, ethereum]
 comments: true
 ---
 
