@@ -67,7 +67,7 @@ Web3 = require('web3');
 solc = require('solc');
 
 web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
-code = fs.readFileSync('src/contract/MyBlog.sol').toString();
+code = fs.readFileSync('MyBlog.sol').toString();
 compiledCode = solc.compile(code);
 abiDefinition = JSON.parse(compiledCode.contracts[':MyBlog'].interface);
 console.log(abiDefinition);
@@ -152,6 +152,6 @@ Read more about [gas](https://ethereum.stackexchange.com/questions/3/what-is-mea
 
 ### Running
 
-Run the website http-server -a localhost -p 8000 -c-1 ./
+Run the website http-server -a localhost -p 8000 -c-1 .
 
 Download the full code at [github](https://github.com/Nytyr/Ethereum-Dapp-Blog){:target="_blank"}
