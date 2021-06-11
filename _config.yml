@@ -5,7 +5,7 @@
 #
 title: Nytyr
 email: nytyr@me.com
-description: Juanjo Chust's blog. Read about programming. Node js, java, angular, android ...
+description: Juanjo Chust's (Nytyr)  blog. Read about programming, blockchain, solidity, defi ...
 url: # the base hostname & protocol for your site
 
 
@@ -36,10 +36,10 @@ owner:
   name: Nytyr
   avatar: #leonids-logo.png
   job: "Juanjo Chust"
-  bio: "Full-stack developer.<br/> Java, Node, Android, Angular..."
-  email: "nytyr@me.com"
+  bio: "Developer.<br/> Blockchain, solidity, smart contracts..."
+  email: "nytyr@pm.me"
   disqus-shortname: "nytyr"
-  twitter: #username
+  twitter: "nytyr"
   facebook: #username
   google:
     plus: #username
